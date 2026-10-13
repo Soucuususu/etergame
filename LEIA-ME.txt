@@ -1,2 +1,0 @@
-Ilhas de Éter v0.7
-Extraia e substitua o index.html na raiz do seu repositório GitHub Pages.
