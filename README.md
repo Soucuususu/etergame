@@ -1,18 +1,25 @@
-# Ilhas de Éter — v0.2
+# Ilhas de Éter v0.3 — Edição Grimório
 
-RPG de navegador com visual 2.5D simulado, ilha ampliada, analógico virtual e interface dentro do jogo.
+RPG 2.5D original para navegador, com controles para celular e PC.
 
-## Publicar no GitHub Pages
-1. Crie um repositório chamado `ilhas-de-eter`.
-2. Envie `index.html` para a raiz do repositório.
-3. Abra Settings → Pages.
-4. Selecione Deploy from a branch, `main` e `/(root)`, e salve.
+## Como jogar
+1. Abra `index.html` em um navegador moderno ou publique-o na raiz de um repositório GitHub.
+2. Na tela inicial, escolha um dos dois espaços de jornada.
+3. Clique em **Novo Jogo** para criar personagem ou **Carregar** para continuar um salvamento.
+4. Explore a ilha, procure o Santuário dos Grimórios e interaja com o altar.
 
-## Controles
-- Celular: analógico no canto inferior esquerdo; botões de ataque, magia, esquiva e poção no canto inferior direito.
-- PC: WASD/setas para andar, Espaço/J atacar, E poder, Shift esquiva, H poção, I inventário, Esc menu, F interagir.
+## Novidades v0.3
+- Menu inicial com grimório e dois espaços de salvamento independentes.
+- Personagem com aparência aleatória: tom de pele, cabelo, roupa e traços de raça.
+- Raças e heranças de fantasia com afinidades diferentes.
+- Títulos com bônus de combate; despertar melhora os efeitos dos ataques.
+- Chance de origem sem mana; essa origem recebe Anti-Magia garantida.
+- Inimigos aparecem em menor quantidade, surgem longe do jogador e só perseguem dentro do raio de percepção.
+- Chefe permanece na região do altar até o jogador se aproximar.
+- Trilha ambiente original sintetizada pelo navegador, com controle nas configurações.
+- Migração automática do salvamento v0.2 para o espaço 1, se ambos os espaços novos estiverem vazios.
 
-## Grimórios
-Vá ao Santuário dos Grimórios no centro da ilha (coordenadas aproximadas 1500, 1100; use a aba Mapa para viajar). Há uma chance rara de receber Anti-Magia; nessa origem, o personagem não tem mana e recebe Anti-Magia garantidamente.
-
-O progresso é salvo no armazenamento local do navegador. Esta é uma versão inicial; a exportação para APK será uma etapa posterior.
+## Observações
+- O progresso é salvo no armazenamento local do navegador; os dois espaços ficam no mesmo aparelho/navegador.
+- A trilha é original e sintetizada pelo jogo, não usa áudio de uma série existente.
+- Esta é uma versão protótipo; teste as funções no aparelho antes de publicar como versão final.
